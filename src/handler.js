@@ -69,6 +69,7 @@ const addBooksHandler = (request, h) => {
   return response;
 };
 
+// masih belum berhasil di postman
 const getAllBooksHandler = (request, h) => {
   const response = h.response({
     status: 'success',
